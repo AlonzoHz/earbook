@@ -50,7 +50,7 @@
                     $name1 = $query_row['name'];
                     $image = $query_row['image'];
 
-                    echo "<img src = \"" . $query_row['image'] . "\" width=\"300\" height=\"300\"/>";
+                    echo "<img src = \"images/" . $query_row['image'] . "\" width=\"300\" height=\"300\"/>";
                 }
             }
 
@@ -64,7 +64,7 @@
                     $name2 = $query_row['name'];
                     $image = $query_row['image'];
 
-                    echo "<img src = \"".$image."\" width=\"300\" height=\"300\"/>";
+                    echo "<img src = \"images/".$image."\" width=\"300\" height=\"300\"/>";
                 }
             }
             echo "<div class=\"left\">";

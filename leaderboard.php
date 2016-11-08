@@ -37,7 +37,7 @@
                         $percent = $query_row['percent'];
                         $image = $query_row['image'];
 
-                        echo "<td><a href=\"".$image."\">".$name."</a></td>";
+                        echo "<td><a href=\"images/".$image."\">".$name."</a></td>";
                         echo "<td>".$rank."</td>";
                         echo "<td>".$wins."</td>";
                         echo "<td>".$loses."</td>";
